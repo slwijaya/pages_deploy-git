@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, white, #e4eae2);
+    color : #222;
+}
+
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-menu li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu li a:hover {
+    color: orange;
+}
+
+/* hero */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff6cc;
+}
+
+.main-title{
+    color: darkblue;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#intro{
+    font-style: italic;
+    color: #222;
+}
+
+/* content */
+
+.content-section{
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 700px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/* Info box - biru */
+
+.info-box{
+    background-color: turquoise;
+    padding: 10px;
+    margin-top:20px;
+    border-radius: 5px;
+}
+
+.highlight{
+    font-weight: bold;
+}
+
+.cta-button{
+    background: orange;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto 0 auto;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* form section login dan register */
+
+.form-section{
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 30px 20px;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #222;
+}
+
+.form-section h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-box label{
+    font-weight: bold;
+}
+
+.form-box input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-box input:focus{
+    border-color: orange;
+    outline: none;
+}
+
+.form-box button{
+    background-color: orangered;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.form-box button:hover{
+    background-color: orange;
+}
+
+
+/* footer */
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
